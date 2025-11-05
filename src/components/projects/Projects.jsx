@@ -3,6 +3,7 @@ import React from "react";
 import "./projects.css";
 import Landing from "../../assets/landing-page.png";
 import Weather from "../../assets/weather.png";
+import Portfolio from "../../assets/portfolio.png";
 
 function Projects() {
   const projectData = [
@@ -27,9 +28,9 @@ function Projects() {
       title: "Portfolio Website",
       desc: "Fully responsive personal portfolio built with React and custom CSS.",
       tech: "React • CSS",
-      live: "#",
-      source: "#",
-      img: "https://via.placeholder.com/400x250?text=Portfolio",
+      live: "https://my-portfolio-app-vzb1.vercel.app/",
+      source: "https://github.com/Mcodes23/my-portfolio-app.git",
+      img: Portfolio,
     },
   ];
 
