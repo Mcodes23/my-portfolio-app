@@ -1,0 +1,59 @@
+/* Projects Section Styles */
+.projectsContainer {
+  display: grid;
+  gap: 1.7rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--container-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  border-color: var(--gold, #c7a76f);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.desc {
+  opacity: 0.85;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.tech {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.links a {
+  margin-right: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold, #c7a76f);
+  transition: 0.2s;
+  opacity: 0.85;
+}
+
+.links a:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}

@@ -1,0 +1,23 @@
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.about__img {
+  height: 400px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__description {
+  line-height: 1.6;
+  margin-bottom: var(--mb-3);
+}
+
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
