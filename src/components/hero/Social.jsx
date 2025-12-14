@@ -4,7 +4,7 @@ function Social() {
   return (
     <div className="hero__social">
       <a href="" className="hero__social-icon" target="_blank">
-        <i class="fa-brands fa-linkedin-in"></i>
+        <i className="fa-brands fa-linkedin-in"></i>
       </a>
 
       <a href="" className="hero__social-icon" target="_blank">

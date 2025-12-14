@@ -14,7 +14,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
           </a>
           <a
             href="#"
@@ -22,7 +22,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-x-twitter"></i>
           </a>
           <a
             href="#"
@@ -30,7 +30,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
 

@@ -40,7 +40,7 @@ function ScrollDown() {
           ></path>
         </svg>
         <span className="hero__scroll-name">Scroll Down</span>
-        <i class="fa-solid fa-arrow-down hero__scroll-arrow"></i>
+        <i className="fa-solid fa-arrow-down hero__scroll-arrow"></i>
       </a>
     </div>
   );
