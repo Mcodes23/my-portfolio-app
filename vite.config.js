@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Change base to '/' so it works on Vercel's root domain
-  base: "/",
+  // eslint-disable-next-line no-undef
+  base: process.env.VITE_BASE_PATH || "/my-portfolio-app",
 });
