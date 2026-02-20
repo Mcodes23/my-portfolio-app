@@ -8,32 +8,22 @@ import Portfolio from "../../assets/portfolio.png";
 function Projects() {
   const projectData = [
     {
-      title: "Responsive Landing Page",
-      desc: "A modern clipboard landing page built with semantic HTML and modern CSS.",
-      tech: "HTML • CSS",
-      live: "https://mcodes23.github.io/html-css-js-projects/clipboard-landing-page/",
-      source:
-        "https://github.com/Mcodes23/html-css-js-projects/tree/main/clipboard-landing-page",
-      img: Landing,
-    },
-    {
-      title: "Weather App",
-      desc: "Fetches real-time weather data from an API and displays UI based on location.",
-      tech: "JavaScript • OpenWeather API",
-      live: " https://mcodes23.github.io/weather-app/",
+      title: "Weather Data API Client",
+      desc: "Application integrating with an external weather API to process and handle real-time data responses with structured error handling.",
+      tech: "JavaScript • REST API Integration • Data Handling",
+      live: "https://mcodes23.github.io/weather-app/",
       source: "https://github.com/Mcodes23/weather-app.git",
       img: Weather,
     },
     {
-      title: "Portfolio Website",
-      desc: "Fully responsive personal portfolio built with React and custom CSS.",
-      tech: "React • CSS",
-      live: "https://my-portfolio-app-vzb1.vercel.app/",
-      source: "https://github.com/Mcodes23/my-portfolio-app.git",
+      title: "Backend Portfolio API (In Progress)",
+      desc: "Designing a RESTful backend service implementing authentication, database schema design, and structured routing architecture.",
+      tech: "Node.js • Express • PostgreSQL • JWT",
+      live: "#",
+      source: "https://github.com/Mcodes23",
       img: Portfolio,
     },
   ];
-
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>

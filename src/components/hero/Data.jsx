@@ -55,9 +55,9 @@ function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className="hero__subtitle">Front-End Developer</h3>
+      <h3 className="hero__subtitle">Backend Engineer</h3>
       <p className="hero__description">
-        Crafting clean, modern web experiences.
+        Designing scalable, reliable backend systems.{" "}
       </p>
 
       <a href="#contact" className="button button--flex">

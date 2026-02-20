@@ -14,13 +14,15 @@ function About() {
 
         <div className="about__data">
           <p className="about__description">
-            Hey — I'm Mateli 👨🏾‍💻 I build modern, user-friendly front-end
-            experiences. I enjoy clean design, smooth animations, and interfaces
-            that just make sense. Right now I'm mastering JavaScript + React and
-            building projects that sharpen real-world skills — from responsive
-            layouts to reusable components and API integrations. I'm curious,
-            fast-learning, and obsessed with learning by doing. I love solving
-            problems, shipping ideas, and getting better every week.
+            Hey — I'm Mateli. I focus on building scalable backend systems and
+            reliable APIs that power real-world applications. My work centers
+            around designing RESTful services, structuring clean server-side
+            architecture, and building secure authentication flows. I care
+            deeply about database integrity, separation of concerns, structured
+            error handling, and writing backend code that is maintainable in
+            production environments. I’m continuously improving my understanding
+            of Linux, system behavior, and deployment practices to build
+            software that performs reliably beyond development.
           </p>
 
           <a download="" href={CV} className="button button--flex">
